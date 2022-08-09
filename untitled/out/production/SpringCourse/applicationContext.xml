@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <!--load properties file: sport.properties-->
+    <context:property-placeholder location="classpath:sport.properties"/>
+
+    <!-- Define your beans here -->
+
+<!--    <bean id="myFortune"-->
+<!--          class="com.company.HappyFortuneService">-->
+<!--    </bean>-->
+
+<!--    &lt;!&ndash;    constructor injection&ndash;&gt;-->
+<!--    <bean id="myCoach"-->
+<!--          class="com.company.Baseballcoach">-->
+<!--        <constructor-arg ref="myFortune"/>-->
+<!--    </bean>-->
+
+<!--    &lt;!&ndash;    constructor injection&ndash;&gt;-->
+<!--    <bean id="mycoach"-->
+<!--          class="com.company.Trackcoach">-->
+<!--        <constructor-arg ref="myFortune"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="myCricketCoach"-->
+<!--          class="com.company.CricketCoach">-->
+<!--          <property name="fortuneService" ref="myFortune"/>-->
+<!--    </bean>-->
+
+
+<!--    <bean id="myCricketCoach"-->
+<!--          class="com.cmp.CricketCoach">-->
+<!--&lt;!&ndash;        <property name="emailAddress" value="thebestCoach@com.cmp"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="team" value="Royal Challengers Bangalore"/>&ndash;&gt;-->
+
+<!--        <property name="emailAddress" value="${foo.email}"/>-->
+<!--        <property name="team" value="${foo.team}"/>-->
+<!--    </bean>-->
+
+
+
+    <bean id="randomFortunes"
+          class="com.Practice.randomFortunes">
+    </bean>
+
+
+
+
+
+</beans>
+
+
+
+
+

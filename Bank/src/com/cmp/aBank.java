@@ -13,18 +13,29 @@ class bamk {
         System.out.println("Welcome to our bank");
     }
 
-    void addAccount(String Name) throws IOException {
+    int generateRandom(){
         Random r = new Random();
         int AccountNum = r.nextInt(2,1000000000);
-        File file = new File(AccountNum + "Transactions.txt");
-        file.createNewFile();
+        return AccountNum;
+    }
 
-        FileWriter writer = new FileWriter(AccountNum + "Transactions" + ".txt");
-        writer.write("+50\n");
-        writer.close();
+    void addAccount(String Name) throws IOException {
+        int AccountNum = generateRandom();
 
-        System.out.println("Welcome " + Name + " your account number is " + AccountNum);
+        File temp=new File(AccountNum+"Transactions.txt");
+        if(temp.exists()){
+            addAccount(Name);
+        }
+        else {
+            File file = new File(AccountNum + "Transactions.txt");
+            file.createNewFile();
 
+            FileWriter writer = new FileWriter(AccountNum + "Transactions" + ".txt");
+            writer.write("+50\n");
+            writer.close();
+
+            System.out.println("Welcome " + Name + " your account number is " + AccountNum);
+        }
     }
 
     void addMoney(int AccountNum, int Money) throws IOException {
@@ -43,7 +54,7 @@ class bamk {
         System.out.println(Money + " has been added to you account. Updated balance is " + sum);
     }
 
-    void withDrawMoney(int Money, int AccountNum) throws IOException {
+    void withDrawMoney(int AccountNum, int Money) throws IOException {
         Path pathFileToRead = Paths.get(AccountNum + "Transactions.txt");
 
         FileWriter writer = new FileWriter(AccountNum + "Transactions.txt", true);
@@ -56,7 +67,17 @@ class bamk {
         for (int i = 0; i < lines.size(); i++) {
             sum = sum + Integer.parseInt((String) lines.get(i));
         }
-        System.out.println(Money + " has been withdrawn to you account. Updated balance is " + sum);
+        System.out.println(sum);
+        if(sum<0){
+            FileWriter writ = new FileWriter(AccountNum + "Transactions.txt", true);
+            writ.write("+" + Money + "\n");
+            System.out.println("Insufficient balance");
+            System.out.println(sum);
+            writ.close();
+        }
+        else {
+            System.out.println(Money + " has been withdrawn to you account. Updated balance is " + sum);
+        }
     }
 
     void showBalance(int Accountnum) throws IOException {
@@ -111,7 +132,7 @@ class bamk {
                 Scanner nj = new Scanner(System.in);
                 String name = nj.nextLine();
                 addAccount(name);
-                bankrunner(accountNum);
+                bank();
                 break;
             }
             case 5 -> {
@@ -129,17 +150,18 @@ class bamk {
             Scanner nj = new Scanner(System.in);
             String name = nj.nextLine();
             addAccount(name);
-        }
-
-        File tmpDir = new File(accountNum + "Transactions.txt");
-        boolean exists = tmpDir.exists();
-
-        if (exists) {
-            bankrunner(accountNum);
+            bank();
         }
         else {
-            System.out.println("Account not found, try again");
-            bank();
+            File tmpDir = new File(accountNum + "Transactions.txt");
+            boolean exists = tmpDir.exists();
+
+            if (exists) {
+                bankrunner(accountNum);
+            } else {
+                System.out.println("Account not found, try again");
+                bank();
+            }
         }
     }
 }
