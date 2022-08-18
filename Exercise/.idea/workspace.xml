@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a17b5fe-5a7b-4258-8372-c1a0b8f5cf31" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/byte-buddy-1.12.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/hibernate-commons-annotations-5.1.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/hibernate-core-5.6.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/jandex-2.4.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/javax.activation-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/jaxb-api-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/jaxb-core-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/jaxb-impl-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/jboss-logging-3.4.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/mysql-connector-java-8.0.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/src/com/luv2code/hibernate/demo/aCreateStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/src/com/luv2code/hibernate/demo/aDeleteStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/src/com/luv2code/hibernate/demo/aPrimaryKeyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/src/com/luv2code/hibernate/demo/aQueryStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/src/com/luv2code/hibernate/demo/aReadStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/src/com/luv2code/hibernate/demo/aUpdateStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/src/com/luv2code/hibernate/demo/bCreateEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/src/com/luv2code/hibernate/demo/bDeleteEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/src/com/luv2code/hibernate/demo/bReadEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/src/com/luv2code/hibernate/demo/bUpdateEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/src/com/luv2code/hidernate/demo/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/src/com/luv2code/hidernate/demo/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/src/com/luv2code/jdbc/TestJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/src/hibernate.cfg.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2D4hqrw5cxZQLXQySrbfs85m2bo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a17b5fe-5a7b-4258-8372-c1a0b8f5cf31" name="Changes" comment="" />
+      <created>1659964459343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659964459343</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

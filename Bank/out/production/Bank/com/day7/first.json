@@ -1,0 +1,9 @@
+{
+  "anand": "name",
+  "age": 556,
+  "isAdmin": false,
+  "myObj": {
+    "name":"vijay",
+    "age": 45
+  }
+}
