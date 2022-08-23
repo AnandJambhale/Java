@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4720a29-a538-4117-9ac2-bfe752432433" name="Changes" comment="third commit">
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/51017357Transactions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/DaliyTasks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day10/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day10/printList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day11/Task1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day11/Task2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day11/Task3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day11/myThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day11/myThread1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day11/myThread3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day11/myThread4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day11/myThread5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day11/myThread6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day6/aBank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/from_course/Custom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/from_course/Gen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/from_course/Generics.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/src/com/day1/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/src/com/day10/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/src/com/day11/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/src/com/day11/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/src/com/day11/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/src/com/day7/first.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DailyTasks/src/com/from_course/Generics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/.idea/libraries/antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/hibernate-tutorial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/byte-buddy-1.12.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/hibernate-commons-annotations-5.1.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/hibernate-core-5.6.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/jandex-2.4.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/javax.activation-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/jaxb-api-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/jaxb-core-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/jaxb-impl-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/jboss-logging-3.4.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/mysql-connector-java-8.0.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/out/production/hibernate-tutorial/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/src/assets.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/src/com/map/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/src/com/map/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/src/com/map/QuestionOneToOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/src/com/map/QuestionsOneToMany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/src/com/tut/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/src/com/tut/aStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/src/com/tut/bAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/src/com/tut/cFetchDemo_Or_GetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/src/com/tut/dCertificate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/src/com/tut/eEmbedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/src/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartedSpring_framework/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartedSpring_framework/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartedSpring_framework/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartedSpring_framework/StartedSpring_framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/.idea/libraries/antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/hibernate-tutorial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/byte-buddy-1.12.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/hibernate-commons-annotations-5.1.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/hibernate-core-5.6.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/jandex-2.4.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/javax.activation-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/jaxb-api-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/jaxb-core-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/jaxb-impl-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/jboss-logging-3.4.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/mysql-connector-java-8.0.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/out/production/hibernate-tutorial/com/luv2code/hibernate/demo/CreateCoursesDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/out/production/hibernate-tutorial/com/luv2code/hibernate/demo/CreateInstructorDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/out/production/hibernate-tutorial/com/luv2code/hibernate/demo/DeleteCourseDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/out/production/hibernate-tutorial/com/luv2code/hibernate/demo/DeleteInstructorDetailDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/out/production/hibernate-tutorial/com/luv2code/hibernate/demo/EagerLazyDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/out/production/hibernate-tutorial/com/luv2code/hibernate/demo/FetchJoinDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/out/production/hibernate-tutorial/com/luv2code/hibernate/demo/GetInstructorCoursesDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/out/production/hibernate-tutorial/com/luv2code/hibernate/demo/GetInstructorDetailDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/out/production/hibernate-tutorial/com/luv2code/hibernate/demo/aCreateDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/out/production/hibernate-tutorial/com/luv2code/hibernate/demo/aDeleteDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/out/production/hibernate-tutorial/com/luv2code/hidernate/demo/entity/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/out/production/hibernate-tutorial/com/luv2code/hidernate/demo/entity/Instructor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/out/production/hibernate-tutorial/com/luv2code/hidernate/demo/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/out/production/hibernate-tutorial/com/luv2code/hidernate/demo/entity/instructorDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/out/production/hibernate-tutorial/com/luv2code/jdbc/TestJdbc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/out/production/hibernate-tutorial/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/CreateCourseAndReviewsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/CreateCoursesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/CreateInstructorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/DeleteCourseAndReviewsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/DeleteCourseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/DeleteInstructorDetailDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/EagerLazyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/FetchJoinDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/GetCourseAndReviewsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/GetInstructorCoursesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/GetInstructorDetailDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/aCreateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/aDeleteDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hidernate/demo/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hidernate/demo/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hidernate/demo/entity/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hidernate/demo/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hidernate/demo/entity/instructorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/jdbc/TestJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/.idea/libraries/antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/hibernate-tutorial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/byte-buddy-1.12.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/hibernate-commons-annotations-5.1.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/hibernate-core-5.6.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/jandex-2.4.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/javax.activation-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/jaxb-api-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/jaxb-core-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/jaxb-impl-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/jboss-logging-3.4.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/mysql-connector-java-8.0.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/out/production/hibernate-tutorial/com/luv2code/hibernate/demo/CreateCourseAndReviewsDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/out/production/hibernate-tutorial/com/luv2code/hidernate/demo/entity/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/out/production/hibernate-tutorial/com/luv2code/hidernate/demo/entity/Instructor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/out/production/hibernate-tutorial/com/luv2code/hidernate/demo/entity/Review.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/out/production/hibernate-tutorial/com/luv2code/hidernate/demo/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/out/production/hibernate-tutorial/com/luv2code/hidernate/demo/entity/instructorDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/out/production/hibernate-tutorial/com/luv2code/jdbc/TestJdbc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/out/production/hibernate-tutorial/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/src/com/luv2code/hibernate/demo/CreateCourseAndReviewsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/src/com/luv2code/hibernate/demo/CreateCourseAndStudentsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/src/com/luv2code/hibernate/demo/QueAns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/src/com/luv2code/hidernate/demo/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/src/com/luv2code/hidernate/demo/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/src/com/luv2code/hidernate/demo/entity/QAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/src/com/luv2code/hidernate/demo/entity/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/src/com/luv2code/hidernate/demo/entity/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/src/com/luv2code/hidernate/demo/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/src/com/luv2code/hidernate/demo/entity/instructorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/src/com/luv2code/jdbc/TestJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-05-many-to-many/src/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/FetchJoinDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/UCreateCrimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/UCreateInspecor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/src/com/luv2code/hidernate/demo/entity/UCrimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/src/com/luv2code/hidernate/demo/entity/UInspector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/src/com/luv2code/hidernate/demo/entity/UInspectorDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/.idea/libraries/json_simple_1_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20Transactions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/20Transactions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/DailyTasks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/com/cmp/aBank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/com/cmp/bamk.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day6/bamk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/com/cmp/day9/GenerateElectricityBill.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day9/GenerateElectricityBill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/com/cmp/day9/toPrintMultiplicationTableUsingFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day9/toPrintMultiplicationTableUsingFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/com/day7/JSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day7/JSON.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/com/day7/first.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/out/production/Bank/com/day7/first.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/com/day7/soringArraylist.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day7/soringArraylist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/com/day8/CompareTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day8/CompareTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/com/day8/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day8/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/com/day8/day8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day8/day8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/com/from_course/fromCourse_FunctionalProgra.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/from_course/fromCourse_FunctionalProgra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmp/aBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/src/com/day6/aBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmp/day9/GenerateElectricityBill.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/src/com/day9/GenerateElectricityBill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmp/day9/toPrintMultiplicationTableUsingFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/src/com/day9/toPrintMultiplicationTableUsingFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/day7/JSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/src/com/day7/JSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/day7/first.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/out/production/DaliyTasks/com/day7/first.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/day7/soringArraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/src/com/day7/soringArraylist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/day8/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/src/com/day8/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/from_course/fromCourse_FunctionalProgra.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DailyTasks/src/com/from_course/fromCourse_FunctionalProgra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hb-03-one-to-many/src/com/luv2code/hidernate/demo/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hb-03-one-to-many/src/com/luv2code/hidernate/demo/entity/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/out/production/hibernate-tutorial/com/luv2code/hibernate/demo/EagerLazyDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/out/production/hibernate-tutorial/com/luv2code/hibernate/demo/EagerLazyDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/out/production/hibernate-tutorial/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/out/production/hibernate-tutorial/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/EagerLazyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/EagerLazyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/src/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateTutorialsYT/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StartedSpring_framework/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/untitled1.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2D4l4FtM3HD4FrmmoGbnbL46xld" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/lenovo/IdeaProjects/ForMe",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\IdeaProjects\Bank\src\com\day11" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\IdeaProjects\Bank\src\com\cmp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Task1">
+    <configuration name="Bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.day6.Bank" />
+      <module name="DaliyTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerateElectricityBill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.day9.GenerateElectricityBill" />
+      <module name="DaliyTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.day9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.day11.Task1" />
+      <module name="DaliyTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.day11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.day11.Task3" />
+      <module name="DailyTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.day11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.day6.aBank" />
+      <module name="DaliyTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="DailyTasks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="DailyTasks" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.GenerateElectricityBill" />
+        <item itemvalue="Application.aBank" />
+        <item itemvalue="Application.Bank" />
+        <item itemvalue="Application.Task3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4720a29-a538-4117-9ac2-bfe752432433" name="Changes" comment="" />
+      <created>1659966044967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659966044967</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1660023881824</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660023881824</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1660029430753</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660029430753</updated>
+    </task>
+    <task id="LOCAL-00003" summary="third commit">
+      <created>1660291783425</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660291783425</updated>
+    </task>
+    <task id="LOCAL-00004" summary="third commit">
+      <created>1660800821999</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660800822000</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="second commit" />
+    <MESSAGE value="third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
+  </component>
+</project>
