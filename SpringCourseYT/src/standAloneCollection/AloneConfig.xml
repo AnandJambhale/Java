@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd
+ http://www.springframework.org/schema/util
+ http://www.springframework.org/schema/util/spring-util.xsd">
+
+<!--    This is our bean-->
+<!--    stand Alone list-->
+    <util:list list-class="java.util.LinkedList" id="mybestfriends">
+        <value>Aman</value>
+        <value>Anand</value>
+        <value>Nilay</value>
+    </util:list>
+
+<!--    standAlone map-->
+    <util:map map-class="java.util.HashMap" id="FeesStructure">
+        <entry key="Spring" value="8000"/>
+        <entry key="Hibernate" value="5000"/>
+        <entry key="Java" value="9000"/>
+    </util:map>
+    
+    <util:properties id="properties">
+        <prop key="driver">com.mysql.Driver</prop>
+        <prop key="Anand">Learner</prop>
+        <prop key="Vilas">Dad</prop>
+    </util:properties>
+
+    <bean class="standAloneCollection.Person" name="person">
+<!--        <property name="friends">-->
+<!--            <ref bean="mybestfriends"/>-->
+<!--        </property>-->
+        <property name="friends" ref="mybestfriends"/>
+        <property name="feesStructure" ref="FeesStructure"/>
+        <property name="props" ref="properties"/>
+    </bean>
+
+
+</beans>

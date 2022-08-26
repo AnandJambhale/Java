@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd
+ https://www.springframework.org/schema/context
+ https://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    use this tag to use annotations-->
+<!--    <context:annotation-config/>-->
+
+<!--    This is our bean-->
+<!--    <bean class="lifecycle.Samosa" name="samosa" init-method="hey" destroy-method="hello">-->
+<!--        <property name="price" value="8"/>-->
+<!--    </bean>-->
+
+<!--    <bean class="lifecycle.Pepsi" name="pepsi" >-->
+<!--        <property name="price" value="5"/>-->
+<!--    </bean>-->
+
+    <bean class="lifecycle.Example" name="ex.">
+        <property name="subject" value="Maths"/>
+    </bean>
+
+    <bean
+
+</beans>
