@@ -1,0 +1,28 @@
+type Query{
+    full(firstName:String, lastName:String):String
+    getAll:[Student]
+    getStudent(stuId:Int):Student
+    fullName(sampleRequest:SampleRequest):String
+    getStu(id:Int):Student
+}
+
+type Student{
+    id:ID!
+    firstName:String
+    lastName:String
+    clas:Int
+}
+type Mutation{
+    createStu(student:StudentInp):Student
+}
+input StudentInp{
+    id:ID!
+    firstName:String
+    lastName:String
+    clas:Int
+}
+input SampleRequest{
+    firstName:String!
+    lastName:String
+    name:String
+}
