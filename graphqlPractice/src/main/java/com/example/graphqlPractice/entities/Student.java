@@ -1,17 +1,14 @@
 package com.example.graphqlPractice.entities;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
 public class Student {
     @Id
@@ -19,4 +16,14 @@ public class Student {
     private String firstName;
     private String lastName;
     private int clas;
+
+    @OneToOne
+    private Subjects subjects;
+
+    public Student(int id, String firstName, String lastName, int clas) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.clas = clas;
+    }
 }

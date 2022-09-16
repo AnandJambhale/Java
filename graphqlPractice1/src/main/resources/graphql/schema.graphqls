@@ -1,0 +1,26 @@
+type Query{
+    getStu(id:Int):Student
+    getAllStudent:[Student]
+    getStudent:Student
+}
+
+type Student{
+    id:Int
+    name:String
+#    subject:[Subject]
+}
+
+#type Subject{
+#    id: Int
+#    subName:String
+#    student:[Student]
+#
+#}
+type Mutation{
+    createStudent(student:StudentInp):Student
+}
+input StudentInp{
+    id:Int
+    name:String
+}
+

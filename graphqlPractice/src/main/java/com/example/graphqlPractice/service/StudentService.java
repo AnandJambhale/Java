@@ -1,6 +1,7 @@
 package com.example.graphqlPractice.service;
 
 import com.example.graphqlPractice.entities.Student;
+import com.example.graphqlPractice.entities.Subjects;
 import com.example.graphqlPractice.repositories.StudentRep;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
