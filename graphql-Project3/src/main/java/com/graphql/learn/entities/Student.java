@@ -3,7 +3,6 @@ package com.graphql.learn.entities;
 import lombok.*;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Entity
 @Getter
@@ -17,6 +16,11 @@ public class Student {
     private int id;
     private String name;
 
-//    @OneToOne
-//    private Subjects subjects;
+    @OneToOne
+    private Subjects subjects;
+
+    public Student(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 }

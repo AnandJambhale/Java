@@ -26,7 +26,7 @@ public class SubjectsService {
     }
 
     public Subjects createSub(Subjects subjects) {
-        this.studentRep.save(subjects.getStudent());
+//        this.studentRep.save(subjects.getStudent());
         return this.subjectRep.save(subjects);
     }
 

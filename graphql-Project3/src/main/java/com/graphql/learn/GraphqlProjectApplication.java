@@ -29,20 +29,24 @@ public class GraphqlProjectApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		Book book=new Book(1,"complete reference","for learning java","Jay",5000,2000,new Student(25,"Anand"));
-		Book book1=new Book(2,"complete reference","for learning python","Joe",5000,2000,new Student(47,"Vijay"));
-		Book book2=new Book(3,"complete reference","for learning c++","Divya",5000,2000,new Student(89,"Hansuja"));
+//		Book book=new Book(1,"complete reference","for learning java","Jay",5000,2000,new Student(25,"Anand"));
+//		Book book1=new Book(2,"complete reference","for learning python","Joe",5000,2000,new Student(47,"Vijay"));
+//		Book book2=new Book(3,"complete reference","for learning c++","Divya",5000,2000,new Student(89,"Hansuja"));
+//
+//		this.studentService.createStudent(book.getStudent());
+//		this.studentService.createStudent(book1.getStudent());
+//		this.studentService.createStudent(book2.getStudent());
+//		this.bookService.create(book);
+//		this.bookService.create(book1);
+//		this.bookService.create(book2);
 
-		this.studentService.createStudent(book.getStudent());
-		this.studentService.createStudent(book1.getStudent());
-		this.studentService.createStudent(book2.getStudent());
-		this.bookService.create(book);
-		this.bookService.create(book1);
-		this.bookService.create(book2);
+		Subjects subjects=new Subjects();
+		subjects.setId(2);
+		subjects.setName("Hindi");
 
-		Subjects subjects=new Subjects(2,"Hindi",new Student(1,"Anand"));
+		Student student=new Student(1,"Anand",subjects);
 
-		this.studentService.createStudent(subjects.getStudent());
-		this.subjectsService.createSub(subjects);
+		this.studentService.createStudent(student);
+//		this.subjectsService.createSub(subjects);
 	}
 }

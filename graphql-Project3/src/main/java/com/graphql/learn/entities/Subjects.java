@@ -20,6 +20,6 @@ public class Subjects {
     private int id;
     private String name;
 
-    @OneToOne
+    @OneToOne(mappedBy = "subjects")
     private Student student;
 }

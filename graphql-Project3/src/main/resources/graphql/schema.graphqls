@@ -2,6 +2,7 @@ type Mutation{
     createBook(book:BookInput):Book
 
     createSubject(subjectInp:SubjectInp):Subject
+    createStudent(student:StudentInp):Student
 }
 
 type Query{
@@ -37,6 +38,7 @@ input BookInput{
 type Student{
     id:ID!
     name:String
+    subject:Subject
 }
 
 type Subject{
@@ -48,10 +50,16 @@ type Subject{
 input StudentInp{
     id:ID!
     name:String
+    subject:SubjectInp
 }
 
 input SubjectInp{
     id:ID!
     name:String
     student:StudentInp
+}
+
+input SubjectInp1{
+    id:ID!
+    name:String
 }

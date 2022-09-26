@@ -2,6 +2,7 @@ package com.graphql.learn.services;
 
 import com.graphql.learn.entities.Student;
 import com.graphql.learn.repositories.StudentRep;
+import com.graphql.learn.repositories.SubjectRep;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,6 +13,9 @@ public class StudentService {
 
     @Autowired
     private StudentRep studentRep;
+
+    @Autowired
+    private SubjectRep subjectRep;
 
     public StudentService(StudentRep studentRep) {
         this.studentRep = studentRep;
@@ -26,6 +30,7 @@ public class StudentService {
     }
 
     public Student createStudent(Student student){
+        this.subjectRep.save(student.getSubjects());
         return this.studentRep.save(student);
     }
 }

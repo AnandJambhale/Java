@@ -48,7 +48,6 @@ public class SubjectsController {
 class SubjectInp{
     private int id;
     private String name;
-
-    @OneToOne
     private Student student;
 }
+
