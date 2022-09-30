@@ -25,7 +25,7 @@ public class Runner {
         student.setSubjects(subjects2);
 
         session.save(student);
-        session.save(subjects);
+//        session.save(subjects);
 
         tx.commit();
 

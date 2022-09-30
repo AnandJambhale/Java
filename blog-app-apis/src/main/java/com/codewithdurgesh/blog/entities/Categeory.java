@@ -24,4 +24,10 @@ public class Categeory {
 
     @OneToMany(mappedBy = "categeory",cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Post> posts=new ArrayList<>();
+
+    public Categeory(Integer categeoryId, String categeoryTitle, String categeoryDescription) {
+        this.categeoryId = categeoryId;
+        this.categeoryTitle = categeoryTitle;
+        this.categeoryDescription = categeoryDescription;
+    }
 }

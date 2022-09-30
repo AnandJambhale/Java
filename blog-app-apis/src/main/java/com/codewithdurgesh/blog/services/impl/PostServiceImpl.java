@@ -56,8 +56,22 @@ public class PostServiceImpl implements PostService {
         post.setImageName(postDto.getImageName());
         post.setAddedDate(new Date());
 
-        this.postRepo.save(post);
-        return this.modelMapper.map(post,PostDto.class);
+        Categeory categeory=this.categeoryRepo.findById(postDto.getCategeory().getCategeoryId()).orElseThrow(()->new RuntimeException());
+        User user=this.userRepo.findById(postDto.getUser().getId()).orElseThrow(()->new RuntimeException());
+
+        User user1=new User();
+        user1.setAbout(user.getAbout());
+        user1.setPassword(user.getPassword());
+        user1.setName(user.getName());
+        user1.setId(user.getId());
+
+        Categeory categeory1=new Categeory(categeory.getCategeoryId(),categeory.getCategeoryTitle(),categeory.getCategeoryDescription());
+
+        post.setUser(user1);
+        post.setCategeory(categeory1);
+
+        Post newPost=this.postRepo.save(post);
+        return this.modelMapper.map(newPost,PostDto.class);
     }
 
     @Override

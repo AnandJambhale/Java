@@ -1,0 +1,57 @@
+type Mutation{
+    createBook(book:BookInput):Book
+
+    createSubject(subjectInp:SubjectInp):Subject
+}
+
+type Query{
+    allBooks:[Book]
+    getBook(bookId:Int):Book
+
+
+    getAllStudent:[Student]
+    getStudent(id:Int):Student
+    getSubById(subId:Int):Subject
+    getAllSubjects:[Subject]
+}
+
+type Book{
+    id:ID!
+    title:String
+    description:String
+    author:String
+    price:Float
+    pages:Int
+    student:Student
+}
+
+input BookInput{
+    title:String
+    description:String
+    author:String
+    price:Float
+    pages:Int
+    student:StudentInp
+}
+
+type Student{
+    id:ID!
+    name:String
+}
+
+type Subject{
+    id:ID!
+    name:String
+    student:Student
+}
+
+input StudentInp{
+    id:ID!
+    name:String
+}
+
+input SubjectInp{
+    id:ID!
+    name:String
+    student:StudentInp
+}
