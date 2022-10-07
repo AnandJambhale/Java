@@ -1,0 +1,40 @@
+type Query{
+    getAllAcc:[BankAcc]
+    single(id:Int):BankAcc
+}
+
+type Mutation{
+    addAcc(bankAcc:BankAccInp):BankAcc
+    setFd(accNum:Int, fd:FDInp):BankAcc
+}
+
+type BankAcc {
+    accType:String
+    accNum:ID
+    customerName:String
+    branchName:String
+    ifscCode:String
+    availableBalance:Int
+    panNumber:String
+    depositAmountForFd:Int
+    tenure:Int
+    rateOfInterest:Int
+    maturityAmount:Int
+    openingDate:String
+    maturityDate:String
+}
+
+input BankAccInp{
+    accType:String
+    customerName:String
+    branchName:String
+    availableBalance:Int
+    panNumber:String
+}
+
+input FDInp{
+    name:String
+    depositAmount:Int
+    maturityAmount:Int
+    probationPeriod:Int
+}

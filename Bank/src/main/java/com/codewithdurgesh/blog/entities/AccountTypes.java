@@ -1,5 +1,6 @@
-package Entities;
+package com.codewithdurgesh.blog.entities;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -13,16 +14,10 @@ import javax.persistence.Id;
 @Getter
 @Setter
 @NoArgsConstructor
-public class BankAccount {
+@AllArgsConstructor
+public class AccountTypes {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
 
-    private long accNumber;
-
-    private String holderName;
-
-    private long balance;
-
-    private long fd;
+    private String accType;
 }
